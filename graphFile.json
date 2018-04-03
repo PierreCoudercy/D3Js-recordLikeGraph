@@ -1,0 +1,25 @@
+{
+    "nodes":
+    [
+	{"group":"SYS1","label":"SYS1", "pos":"center","parent":"None"},
+	{"group":"SYS1","label":"65536-65536", "pos":"pCI","parent":"SYS1"},
+	{"group":"SYS1","label":"65536-65536", "pos":"pCO","parent":"SYS1"},
+	{"group":"SYS1","label":"65536-65536","pos":"pCI","parent":"SYS1"},
+	{"group":"SYS1","label":"65536-65536","pos":"pCO","parent":"SYS1"},
+	{"group":"SYS2","label":"SYS2","pos":"in","parent":"None"},
+	{"group":"SYS2","label":"65536-65536","pos":"pI","parent":"SYS2"},
+	{"group":"SYS3","label":"SYS3","pos":"in","parent":"None"},
+	{"group":"SYS3","label":"65536-65536","pos":"pI","parent":"SYS3"},
+	{"group":"SYS4","label":"SYS4","pos":"out","parent":"None"},
+	{"group":"SYS4","label":"65536-65536","pos":"pO","parent":"SYS4"},
+	{"group":"SYS5","label":"SYS5","pos":"out","parent":"None"},
+	{"group":"SYS5","label":"65536-65536","pos":"pO","parent":"SYS5"}
+    ],
+    "links":
+    [
+	{"source":6,"target":3,"w":4},
+	{"source":8,"target":1,"w":1},
+	{"source":4,"target":10,"w":5},
+	{"source":2,"target":12,"w":24}
+    ]
+}
